@@ -22,7 +22,7 @@ So, a Python virtual environment actually enables you to have multiple versions 
 
 ## Creating Virtual Environments
 
-Python already comes with the `venv` module is built in.
+Python already comes with the `venv` module built-in.
 
 First, create/navigate to your project directory.
 ```

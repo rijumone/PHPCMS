@@ -30,4 +30,7 @@ Very well.
 ssh {{user}}@{{hostname}} -i /path/to/keyfile
 ```
 
-Just ensure that the keyfile has proper permissions (`chmod 400 /path/to/keyfile`), will you?
+Just ensure that the keyfile has proper permissions. 
+```bash
+chmod 400 /path/to/keyfile
+```
