@@ -2,12 +2,13 @@
 Showcase leading CMS solutions implemented in the PHP framework.
 
 ## Dependencies
+### System
 ```bash
 sudo apt install php-xml -y
 sudo apt install php7.3-mbstring -y
 ```
 
-## Composer
+### Composer
 ```bash
 curl -sSL https://getcomposer.org/installer | php
 php composer.phar --working-dir=picocms install
