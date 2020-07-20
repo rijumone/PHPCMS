@@ -20,7 +20,7 @@ DESCRIPTION
 ```
 So while it is helpful to identify the system, it is by no means enforceable and can be set to any string.
 
-And identification of the machine is what was important to me when I needed to a way to log which load-balanced machine any particular job could be running on.
+And identification of the machine is what was important to me when I needed a way to log which load-balanced machine any particular job could be running on.
 
 
 ## Bash

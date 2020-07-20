@@ -1,4 +1,6 @@
 # /etc/systemd/system/picocms.service
+
+[Unit]
 Description=Picocms Webserver Service
 After=network.target
 
@@ -7,6 +9,7 @@ Type=simple
 User=pi
 Group=pi
 ExecStart=/bin/bash -c 'cd /home/pi/Kitchen/PHPCMS/picocms;php -S 0.0.0.0:7000'
+Restart=always
 
 [Install]
 WantedBy=multi-user.target
