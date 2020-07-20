@@ -18,7 +18,7 @@ What if I told you, this was shot on a smartphone camera?
 
 <!-- ![animation](/assets/img/astro_trails_1_optimised.gif "Experiment") -->
 <!-- [<img src="/assets/img/astro_trails_1_optimised.gif" width="1024"/>](/assets/img/astro_trails_1_optimised.gif) -->
-[<img src="/assets/img/astro_trails_1_optimised.gif" class="img-fluid"/>](/assets/img/astro_trails_1_optimised.gif)
+<!-- [<img src="/assets/img/astro_trails_1_optimised.gif" class="img-fluid"/>](/assets/img/astro_trails_1_optimised.gif) -->
 
 ## The equipment
 
