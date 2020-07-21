@@ -14,7 +14,7 @@ It's insanely powerful though allowing many different kinds of connections made 
 As simple as:
 
 ```bash
-ssh {{user}}@{{hostname}}
+$ ssh {{user}}@{{hostname}}
 ```
 
 Ah, wait you, say? What if the machine's user is (invariably) secured by a password.
@@ -24,7 +24,7 @@ Well then, you will (invariably) be prompted for the password.
 Very well.
 
 ```bash
-ssh {{user}}@{{hostname}} -i /path/to/keyfile
+$ ssh {{user}}@{{hostname}} -i /path/to/keyfile
 ```
 
 Just ensure that the keyfile has proper permissions (`chmod 400 /path/to/keyfile`), will you?

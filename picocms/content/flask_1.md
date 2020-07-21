@@ -33,20 +33,20 @@ Let's get down and give them that.
 
 Create a working dir to hold your project.
 ```bash
-mkdir FlaskAWQLRunner
-cd FlaskAWQLRunner
+$ mkdir FlaskAWQLRunner
+$ cd FlaskAWQLRunner
 ```
 
 Create and activate the [virtual environment](/?virtualenv). And install some basic setup tools.
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip wheel setuptools
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install --upgrade pip wheel setuptools
 ```
 
 Install Flask from PyPI
 ```bash
-pip install flask
+$ pip install flask
 ```
 
 That's it. Flask has been installed in your virtual environment.

@@ -1,6 +1,6 @@
 ---
 Title: Star Trails Photography, Volume 2
-Description: Astronomy week
+Description: ISO and other settings
 Date: 21 July 2020
 Image: /assets/img/astro_trails_1_optimised.jpg
 Template: single
@@ -47,5 +47,5 @@ And you are good! Mount the phone on the tripod, find a clear portion of sky and
 
 Hah! Not too shabby, huh?
 
-But, what about the star trails image that was teased, you say?
+But, what about the star trails image that was teased in the [previous post](/?star_trails_1), you say?
 Well, that is actually 100s of individual shots blended into one single image. [Click here](/?star_trails_3) for the next iteration of this series where we explore capturing these 100s of pictures.
