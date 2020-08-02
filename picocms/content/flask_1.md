@@ -19,6 +19,11 @@ It has the lowest "barrier-to-entry" so to speak.
 
 ## The How
 
+For any web framework (rather any framework) to work, it ships with some paradigms as to how to achieve a particular goal. Database abstraction, for example, is handled via an ORM layer. 
+There might be distinct classes for serialization, etc. 
+All of this adds to the bulk of the framework. 
+
+But Flask, you might remember is "micro" framework. It is light-weight.
 Flask achieves this by shipping with just the bare essentials. It does not include a database abstraction layer, form validation, file upload handling or authentication technologies which some other frameworks pride themselves on. I am looking at you, Django.
 
 Instead, Flask supports extensions to add such functionality as and when needed via seamless integration which is virtually indistinguishable from native support.
