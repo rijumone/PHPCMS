@@ -41,14 +41,14 @@ Since, its a ETL pipeline, let's start simple. Two input `table`s joined with a 
 Let's start with the root node and then keep adding other nodes.
 
 ```python
-import networkx as nx
+>>> import networkx as nx
 
-graph = nx.DiGraph()
+>>> graph = nx.DiGraph()
 
-graph.add_edges_from([
-    ("table_1", "join"),
-    ("table_2", "join"),
-    ])
+>>> graph.add_edges_from([
+... ("table_1", "join"),
+... ("table_2", "join"),
+... ])
 
 ```
 
@@ -65,21 +65,21 @@ $ pip install matplotlib
 ```
 
 ```python
-import networkx as nx
-from matplotlib import pyplot
+>>> import networkx as nx
+>>> from matplotlib import pyplot
 
-graph = nx.DiGraph()
+>>> graph = nx.DiGraph()
 
-graph.add_edges_from([
-    ("input_table_1", "join"),
-    ("input_table_2", "join"),
-    ])
+>>> graph.add_edges_from([
+... ("input_table_1", "join"),
+... ("input_table_2", "join"),
+... ])
 
-pyplot.clf()
-pyplot.tight_layout()
-nx.draw_networkx(graph, arrows=True)
-pyplot.savefig("graph.png", format="PNG")
-pyplot.clf()
+>>> pyplot.clf()
+>>> pyplot.tight_layout()
+>>> nx.draw_networkx(graph, arrows=True)
+>>> pyplot.savefig("graph.png", format="PNG")
+>>> pyplot.clf()
 ```
 A PNG file will be created in the working directory.
 
@@ -90,11 +90,11 @@ A PNG file will be created in the working directory.
 About that `output` table.
 
 ```python
-graph.add_edges_from([
-    ("input_table_1", "join"),
-    ("input_table_2", "join"),
-    ("join", "output_table_1"),
-    ])
+>>> graph.add_edges_from([
+... ("input_table_1", "join"),
+... ("input_table_2", "join"),
+... ("join", "output_table_1"),
+... ])
 ```
 
 [<img src="/assets/img/o_graph.png" class="img-fluid"/>](/assets/img/o_graph.png)
