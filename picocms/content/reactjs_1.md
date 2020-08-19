@@ -16,7 +16,7 @@ The modern Frontend landscape has come miles in terms of frameworks and now it i
 
 Or so I have heard.
 
-I would not know for sure until I go in deep and get my hands dirty. So, I start this series with the agenda to break out ReactJS, attempt to develop a functional app and found out exactly what has changed on the Frontend scene in these past years.
+I would not know for sure until I go in deep and get my hands dirty. So, I start this series with the agenda to break out ReactJS, attempt to develop a functional app and find out exactly what has changed on the Frontend scene in these past years.
 
 ## Why ReactJS
 
@@ -109,7 +109,7 @@ We'll load up the `react-gallery-app` directory in Visual Studio Code which happ
 
 [<img src="/assets/img/react_vs_code.png" class="img-fluid"/>](/assets/img/react_vs_code.png)
 
-Let's add another `<p>` tag with some content and save the file. The server should hotreload.
+Let's add another `<p>` tag with some content and save the file. The server should hot-reload.
 
 [<img src="/assets/img/react_first_edit.png" class="img-fluid"/>](/assets/img/react_first_edit.png)
 
