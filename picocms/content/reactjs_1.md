@@ -20,7 +20,7 @@ I would not know for sure until I go in deep and get my hands dirty. So, I start
 
 ## Why ReactJS
 
-Its popular for one. Substantially so, as per [Google Trends](https://trends.google.com/trends/explore?cat=31&q=Vue.js,React,Angular). Google's own Angular (previously known as AngularJS) used to hold the top spot for a long time until being dethroned by the new ruler of the Frontend: long enough to catch my eye.
+Its popular, for one. Substantially so, as per [Google Trends](https://trends.google.com/trends/explore?cat=31&q=Vue.js,React,Angular). Google's own Angular (previously known as AngularJS) used to hold the top spot for a long time until being dethroned by the new ruler of the Frontend: long enough to catch my eye.
 
 I began exploring Angular(JS at that time) but soon found it either boring or not developer friendly enough. Or may be, not enough people were doing it then, for me to get the required support. And ReactJS is supposed to be easier to work with.
 
