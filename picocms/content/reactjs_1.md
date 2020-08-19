@@ -8,7 +8,7 @@ Template: single
 
 # The modern Frontend
 
-I started out my career path as a software developer working with PHP and Javascript. And while I hated PHP, I was absolutely terrified of Javascript. The stuff hardly ever worked as I wanted it to. I had to work around the idiosyncrasies and quirks of the language. And while most of it can be written off as my obvious inexperience and programming skills (or lack thereof) at that time, the deep seated irrational fear of Javascipt and all its forms, frameworks and libraries remained. I generally avoided the language where I could, be it on the Frontend or the Backend.
+I started out my career path as a software developer working with PHP and Javascript. And while I hated PHP, I was absolutely terrified of Javascript. The stuff hardly ever worked as I wanted it to. I had to work around the idiosyncrasies and quirks of the language. And while most of it can be written off as my obvious inexperience and programming skills (or lack thereof) at that time, the deep seated irrational fear of Javascript and all its forms, frameworks and libraries remained. I generally avoided the language where I could, be it on the Frontend or the Backend.
 
 Up until now.
 
