@@ -8,7 +8,7 @@ Template: single
 
 # Description
 
-Bubble sort is a simple comparison sort. Long story short it will ### Step through the list, compare adjacent element and if they are in the wrong order, simply swap them.
+Bubble sort is a simple comparison sort. Long story short it will step through the list, compare adjacent element and if they are in the wrong order, simply swap them.
 
 ## Demonstration
 
