@@ -43,4 +43,4 @@ needed to be sorted in ascending order, like so:
 
 Let's take a look at the different approaches one can follow to arrive at this final list.
 
-[Click here](/?sorting_algos_bubble) to go to the next post where we discuss [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort).
+[Click here](/?sorting_algos_bubble) to go to the next post where we discuss [Bubble sort](/?sorting_algos_bubble).

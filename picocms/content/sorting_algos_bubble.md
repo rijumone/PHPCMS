@@ -1,6 +1,6 @@
 ---
 Title: Algorithms, Volume 2, Bubble Sort
-Description: Bubble Sorting Algorithms, Python
+Description: Bubble Sorting Algorithm, Python
 Date: 13 Feb 2021
 Image: /assets/img/bubble_sort.png
 Template: single
@@ -8,7 +8,7 @@ Template: single
 
 # Description
 
-Bubble sort is a simple comparison sort. Long story short it will step through the list, compare adjacent element and if they are in the wrong order, simply swap them.
+Bubble sort is a simple comparison sort. Long story short it will step through the list, compare adjacent item and if they are in the wrong order, simply swap them.
 
 ## Demonstration
 
@@ -20,7 +20,7 @@ Our input list:
 
 ### Step I:
 
-Start from the beginning. Take the first element `1700` and compare it with the next `1612`.
+Start from the beginning. Take the first item `1700` and compare it with the next `1612`.
 
 `1700` is greater than `1612`, hence they are in the wrong order. 
 
@@ -58,7 +58,7 @@ Can you see how the smaller values are "bubbling" up the list?
 
 ### Step V:
 
-We reached the end of the list, so we start again at the beginning. But this time, we don't need to compare till the end. Because the largest element will have already reached the end of the list.
+We reached the end of the list, so we start again at the beginning. But this time, we don't need to compare till the end. Because the largest item will have already reached the end of the list.
 
 ```python
 [500, 1612, 85, 1004, 1700, ]
@@ -94,7 +94,7 @@ Again, no changes.
 
 ### Step X:
 
-We need to start from the beginning again, but this time we can skip comparing two of the last elements. They are already in their proper places.
+We need to start from the beginning again, but this time we can skip comparing two of the last items. They are already in their proper places.
 
 ```python
 [85, 500, 1004, 1612, 1700, ]
@@ -117,7 +117,7 @@ No changes.
 
 ### Step XIII:
 
-We start at the beginning. Note that we need to check only the first two elements, we can skip the last three.
+We start at the beginning. Note that we need to check only the first two items, we can skip the last three.
 
 No changes.
 
@@ -136,14 +136,15 @@ lst = [1700, 1612, 500, 85, 1004, ]
 
 # get the length of the list
 len_lst = len(lst)
+
 # the first loop
 for i in range(len_lst):
-    # the second loop skipping the i last elements i each time
-    # i starts from 0 so the first time, all the elements will be checked
-    # except that we need to run the loop only till the 2nd last element
-    # since the 2nd last element will compare with the last element
+    # the second loop skipping the i last items i each time
+    # i starts from 0 so the first time, all the items will be checked
+    # except that we need to run the loop only till the 2nd last item
+    # since the 2nd last item will compare with the last item
     for j in range(len_lst - (i + 1)):
-        # if the element which comes earlier is greater than the next adjacent element
+        # if the item which comes earlier is greater than the next adjacent item
         if lst[j] > lst[j + 1]:
             # swap them by judiciously using a temporary variable
             _tmp = lst[j + 1]
@@ -155,4 +156,4 @@ Easy-peasy! Okay, it might look a little intimidating for beginners, but it is n
 
 
 
-[Click here](/?sorting_algos_insertion) to go to the next post where we discuss and dissect another favorite of mine, the  [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) algorithm.
+[Click here](/?sorting_algos_selection) to go to the next post where we discuss and dissect another favorite of mine, the [Selection sort](/?sorting_algos_selection) algorithm.
