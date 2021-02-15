@@ -73,7 +73,7 @@ lst = [1700, 1612, 500, 85, 1004, ]
 len_lst = len(lst)
 
 # the first loop, this will check set the
-#correct item at it's correct position in the list
+# correct item at it's correct position in the list
 for i in range(len_lst):
     # we declare a variable to keep track of
     # the index of the smallest item encountered yet
