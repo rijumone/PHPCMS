@@ -8,7 +8,7 @@ Template: single
 
 # Introduction
 
-Serialization refers to the process using which complex objects can be converted to byte streams so enable their storage and/or transfer. The reverse process, loading complex objects from bytes, is known as deserialization.
+Serialization refers to the process using which complex objects can be converted to byte streams to enable their storage and/or transfer. The reverse process, loading complex objects from bytes, is known as deserialization.
 
 This is required invariably while developing applications in the real world. A good example is the response of web APIs.
 
@@ -29,7 +29,7 @@ class Holding:
     stoploss: float
 ```
 
-...one can simple a `to_json()` method.
+...one can write a simple `to_json()` method.
 
 ```python
 def to_json(self) -> str:
