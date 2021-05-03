@@ -2,7 +2,7 @@
 Title: Multithreading v/s Multiprocessing in Python
 Description: When to use which?
 Date: 01 May 2021
-Image: /assets/img/memory_management_python.png
+Image: /assets/img/concurrency.png
 Template: single
 ---
 
@@ -10,7 +10,7 @@ Your backend code will need to run asynchronously at times.
 
 ## Tasks description
 
-Suppose we have two distinct tasks which both involve repeating some smaller task n number of times.
+Suppose we have two distinct tasks which both involve repeating a smaller task n number of times.
 
 Given the letters of the English alphabet:
 
@@ -125,4 +125,4 @@ Factor of almost 3.5x.
 Hence, we have witnessed that for CPU bound tasks, use multiprocessing and for IO bound operations, use multithreading.
 
 
-## The Python Global Interpreter Lock (GIL)
+Code for this example can be found [here](https://github.com/rijumone/python/blob/master/concurrency/thread_vs_process.py).
