@@ -43,7 +43,7 @@ $ python mark-and-toys.py
 14000 1668.3487535350005
 ```
 
-If it is not evident from the numbers above, the chart following will clear all doubts that we have an algorithm which is scaling logarithmically.
+If it is not evident from the numbers above, the chart following will clear all doubts that we have an algorithm which is scaling poorly.
 
 [<img src="/assets/img/bubble_sort_perf.svg" class="img-fluid"/>](/assets/img/bubble_sort_perf.svg)
 
