@@ -80,7 +80,7 @@ A'right!
 ```bash
 $ npx create-react-app react-gallery-app
 ```
-[`npx`](https://www.npmjs.com/package/npx) is described as a "npm package runner". It will execute commands either from a local `node_modules/bin` dir or from a central cache. Any packages need in order for the command to run will be installed. 
+[`npx`](https://www.npmjs.com/package/npx) is described as a "npm package runner". It will execute commands either from a local `node_modules/bin` dir or from a central cache. Any packages needed in order for the command to run will be installed. 
 
 So, we are actually executing the `create-react-app` module.
 
